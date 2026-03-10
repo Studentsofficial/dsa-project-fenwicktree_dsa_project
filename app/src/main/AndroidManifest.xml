@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cryptoapp">
+        <activity
+            android:name=".TransactionRepository.kt"
+            android:exported="false"
+            android:label="@string/title_activity_transaction_repository.kt"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".AppDatabase.kt"
+            android:exported="false"
+            android:label="@string/title_activity_app_database.kt"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".TransactionDao.kt"
+            android:exported="false"
+            android:label="@string/title_activity_transaction_dao.kt"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".Transaction.kt"
+            android:exported="false"
+            android:label="@string/title_activity_transaction.kt"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".Screens"
+            android:exported="false"
+            android:label="@string/title_activity_screens"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".App"
+            android:exported="false"
+            android:label="@string/title_activity_app"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".FenwickTree"
+            android:exported="false"
+            android:label="@string/title_activity_fenwick_tree"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".StockManager"
+            android:exported="false"
+            android:label="@string/title_activity_stock_manager"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".UIComponents"
+            android:exported="false"
+            android:label="@string/title_activity_uicomponents"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".Navigation"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.Cryptoapp" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Cryptoapp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

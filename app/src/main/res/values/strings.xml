@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cryptoapp</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_activity_uicomponents">UIComponents</string>
+    <string name="title_activity_stock_manager">StockManager</string>
+    <string name="title_activity_fenwick_tree">FenwickTree</string>
+    <string name="title_activity_app">App</string>
+    <string name="title_activity_screens">Screens</string>
+    <string name="title_activity_transaction.kt">Transaction.kt</string>
+    <string name="title_activity_transaction_dao.kt">TransactionDao.kt</string>
+    <string name="title_activity_app_database.kt">AppDatabase.kt</string>
+    <string name="title_activity_transaction_repository.kt">TransactionRepository.kt</string>
+</resources>
